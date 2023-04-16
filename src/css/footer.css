@@ -1,0 +1,29 @@
+.footer-container{
+  padding: 0;
+  margin: 0;
+}
+footer{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(134, 100, 237);
+}
+.nav-footer {
+  display: flex;
+  color: white;
+}
+.nav-footer .footer-item a{
+  color: white;
+
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+}
+.text-center{
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}

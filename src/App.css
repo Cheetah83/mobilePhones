@@ -1,0 +1,149 @@
+body{
+  background-color: rgb(216, 227, 247);
+}
+/* navigation bar */
+.nav-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(134, 100, 237);
+}
+li a {
+  display: inline;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-align: center;
+}
+.nav-bag {
+  display: flex;
+  align-items: center;
+}
+.bag-quantity {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: yellow;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
+}
+.nav-left{
+  float: left;
+  display: block;
+}
+li a:hover{
+  background-color: rgb(17, 64, 153);
+  color: white;
+}
+.active {
+  background-color: rgb(17, 64, 153);
+}
+.nav-right{
+  float: right;
+  display: inline;
+}
+
+/* Home Page */
+.home-container{
+  padding: none;
+  margin: none;
+}
+.home-container {
+  padding: 2rem 4rem;
+}
+.home-container h1 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+.col-md-6 img{
+  flex-wrap: wrap;
+  height: 600px;
+  padding: 1rem 1rem;
+  transition: 3s;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* About page */
+.about-container{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.about-container{
+  align-items: center;
+  padding: 10rem 1rem;
+}
+.about-container .about-text{
+  display: inline;
+  justify-items: left;
+  padding: 50px 300px;
+  width: 45%;
+  height: 900px;
+  width: 560px;
+	box-shadow: 0px 0px 54px #5C5696;
+
+}
+.about-container .about-text p{
+  text-decoration: none;
+  font-weight: 500;
+  padding: 20px 20px;
+}
+.about-container .about-text a{
+  text-decoration: none;
+  font-weight: 500;
+  font-style: italic;
+  padding: 10px 10px;
+}
+.about-container .about-image img{
+  margin-top: none;
+  float: left;
+  padding: 1rem 2rem;
+  width: 45%;
+  height: 100%;
+}
+/* Contact Page */
+.contact-containers{
+  padding: 0;
+  margin: 0;
+}
+.contact-text h1{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+.contact-text .contact-image img{
+  float: left;
+  padding-top: 50px;
+  width: 45%;
+  height: 300px;
+  top: 50px;
+}
+.contact-container .contact-form{
+  float: left;
+  padding: auto;
+  width: 45%;
+}
+.contact-form input{
+  padding: 5px 20px;
+  margin: 1rem 2rem;
+  border-radius: 2px solid rgb(3, 54, 105);
+  width: 50%;
+}
+.contact-form .form-contact-desc{
+  padding: 5px 20px;
+  margin: 1rem 2rem;
+  width: 50%;
+}
+.contact-form button{
+  padding: none;
+  margin: 2rem 2rem;
+}
